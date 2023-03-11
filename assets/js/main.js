@@ -6,6 +6,19 @@
 
 (function($) {
 
+	//custom
+	$('#linkBaby').on('click',function(){
+		$('#hiddenBaby').show();
+	});
+
+	$('#linkGame1').on('click',function(){
+		$('#hiddenGame1').show();
+	});
+
+	$('#linkGame2').on('click',function(){
+		$('#hiddenGame2').show();
+	});
+
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
