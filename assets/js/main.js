@@ -309,6 +309,10 @@
 						.appendTo($this)
 						.on('click', function() {
 							location.hash = '';
+							//custom Init
+							$('#hiddenBaby').hide();
+							$('#hiddenGame1').hide();
+							$('#hiddenGame2').hide();
 						});
 
 				// Prevent clicks from inside article from bubbling.
